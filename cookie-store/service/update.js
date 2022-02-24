@@ -1,7 +1,7 @@
 const { validToken } = require('../middleware/token');
 const updateModel = require('../models/products/update');
 
-module.exports = async (id, name, quantity, token) => {
+module.exports = async (name, quantity, token) => {
   const dataToken = await validToken(token);
 
   if('message' in dataToken) return dataToken;
@@ -10,7 +10,7 @@ module.exports = async (id, name, quantity, token) => {
 
   if (typeof quantity !== 'number') return { code: 406, message: 'Quantity must be a number' }
 
-  const update = await updateModel(id, name, quantity, token);
+  const update = await updateModel(name, quantity, token);
 
   return update
 }
