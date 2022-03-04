@@ -1,5 +1,10 @@
-*{
-  /* background-color: #fff; */
+body {
+  background-color: #F0F8FF;
+  font-family: Convergence, sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 header {
@@ -10,17 +15,23 @@ header {
 
 .container {
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
   display: block;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
 }
 
+form {
+  position: relative;
+  /* width: 20rem; */
+}
+
+
 .box {
   margin: 0 auto;
-  background-color: #1852E7;
-  border: 1px solid black;
-  border-radius: 5px;
+  background-color: #0297F8;
+  border: 1px dashed #6CC1FD;
+  border-radius: 50px;
   color: #fff;
   padding: 10px;
   cursor: move;
@@ -31,42 +42,51 @@ header {
 }
 
 .add-input {
-  height: 20px;
-  border-radius: 5px;
+  height: 22px;
+  width: 50%;
+  border-radius: 50px;
   margin: 5px;
+  border: 1px solid rgb(202, 200, 200);
+  padding: 14px 30px;
+  
+}
+
+.add-input:hover {
+   border-color: #0297F8;
+   transition: 250ms ease-in-out;
 }
 
 .add-button {
-  margin-left: 10px;
-  width: 100px;
-  height: 25px;
-  border-radius: 5px;
-  background-color: #1852E7;
+  margin-top: 15px;
+  width: 60%;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #0269ca;
   color: #fff;
+  border: none;
+}
+
+.add-button:hover {
+  background-color: #0297F8;
+  transition: 1s ease-in-out;
 }
 
 table {
   margin: 0 auto;
   margin-top: 50px;
-  text-align: center;
-  border-collapse: collapse;
-  border: 1px solid #4B2CD3;
-  background: #4618E7;
+  /* border-collapse: collapse; */
 }
 
 tr:nth-child(even) {
-  background: #4618E7;
+  background: #18b0e7;
 }
 
-tr:nth-child(3) {
-  background: #18B9E7;
+tr:nth-child(odd) {
+  background: #1853e7;
 }
- 
+
 table, th, td {
   padding: 10px 30px;
-  border: 1px solid;
-}
- 
-th {
-  border-bottom: 1px solid #d4d4d4;
+  border: none;
+  border-radius: 5px;
 }

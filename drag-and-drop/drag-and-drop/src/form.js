@@ -21,19 +21,21 @@ export default function Form({ contact, changeNameValue}) {
     return (
         <form>
         <h3>Editar contato {nome}</h3>
-        <label> Nome
+        <label>
           <input
             id="input-name"
             className="add-input"
+            placeholder="Nome"
             type="text"
             value={inputName}
             onChange={handleChangeName}
           />
         </label>
-        <label> Telefone
+        <label>
           <input
             id="input-telefone"
             className="add-input"
+            placeholder="Telefone"
             type="text"
             value={inputPhone}
             onChange={handleChangePhone}

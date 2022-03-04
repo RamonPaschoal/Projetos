@@ -68,25 +68,29 @@ export default function App() {
       </div>
       <form>
         <h3>Adicionar Contato</h3>
-        <label> Nome
+        <label className="form-label" for="input-add-name">
           <input
             id="input-add-name"
             className="add-input"
+            autoComplete="off"
+            placeholder="Nome"
             type="text" value={ addNewPerfil.nome }
             onChange={ ({ target }) => setAddNewPerfil({ ...addNewPerfil, nome: target.value }) }
           />
         </label>
-        <label> Telefone
+        <br />
+        <label className="form-label" for="input-add-telefone">
           <input
             id="input-add-telefone"
             className="add-input"
+            placeholder="Telefone - (xx) xxxxx-xxxx"
             type="tel" value={ addNewPerfil.telefone }
-            required
+            autoComplete="off"
             pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
-            placeholder="(xx) xxxxx-xxxx"
             onChange={ ({ target }) => setAddNewPerfil({ ...addNewPerfil, telefone: target.value }) }
           />
         </label>
+        <br />
         <button type="button" className="add-button" onClick={ addPerfil }>Submit</button>
       </form>
       <table className='Table'>
@@ -107,6 +111,7 @@ export default function App() {
                 onClick={() => removeRow(contact.id)}
               />
             </td>
+            
             <td>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/84/84380.png"
