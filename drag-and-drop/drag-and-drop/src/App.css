@@ -26,6 +26,9 @@ form {
   /* width: 20rem; */
 }
 
+img {
+  margin: 0 10px;
+}
 
 .box {
   margin: 0 auto;
@@ -35,7 +38,7 @@ form {
   color: #fff;
   padding: 10px;
   cursor: move;
-  width: 500px;
+  width: 450px;
   height: 100px;
   text-align: center;
   line-height: 100px;
@@ -74,19 +77,35 @@ form {
 table {
   margin: 0 auto;
   margin-top: 50px;
-  /* border-collapse: collapse; */
 }
 
 tr:nth-child(even) {
-  background: #18b0e7;
+  background: #72c6f7;
 }
 
 tr:nth-child(odd) {
-  background: #1853e7;
+  background: #0e6cd1;
+  color: #fff;
+}
+
+tr:nth-last-child(1) {
+  background-color: rgb(173, 41, 8);
+  width: 500px;
+}
+
+th:nth-child(1) {
+  border-top-left-radius: 5px;
+}
+
+th:nth-child(3) {
+  border-top-right-radius: 5px;
 }
 
 table, th, td {
   padding: 10px 30px;
   border: none;
-  border-radius: 5px;
+}
+
+#images {
+  width: 100px;
 }

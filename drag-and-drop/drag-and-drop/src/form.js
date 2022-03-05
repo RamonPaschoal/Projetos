@@ -46,7 +46,7 @@ export default function Form({ contact, changeNameValue}) {
           className="add-button"
           onClick={() => changeNameValue(id, inputName, inputPhone)}
         >
-          Submit
+          Enviar
         </button>
       </form>
     )

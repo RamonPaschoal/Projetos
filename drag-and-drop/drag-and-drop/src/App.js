@@ -91,18 +91,18 @@ export default function App() {
           />
         </label>
         <br />
-        <button type="button" className="add-button" onClick={ addPerfil }>Submit</button>
-      </form>
+        <button type="button" className="add-button" onClick={ addPerfil }>Enviar</button>      </form>
       <table className='Table'>
         <tr>
           <th>Nome</th>
           <th>Telefone</th>
+          <th>Editar</th>
         </tr>
         {contacts.map(contact =>
           <tr id={`tr${contact.id}`}>
             <td key={`key-${contact.id}`} id={contact.id}>{contact.nome}</td>
             <td id={contact.telefone}>{contact.telefone}</td>
-            <td>
+            <td id="images">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/18/18297.png?w=826"
                 alt="Trash"
@@ -110,9 +110,6 @@ export default function App() {
                 height="29"
                 onClick={() => removeRow(contact.id)}
               />
-            </td>
-            
-            <td>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/84/84380.png"
                 alt="Edit"
