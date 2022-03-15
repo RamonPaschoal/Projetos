@@ -35,3 +35,4 @@ Esse processo de estudo do cliente, é utilizado no mundo inteiro e em diversos 
 ## **3.2 Get your hands dirty:**
 Este estará no arquivo .sql do repositório
 
+## **4 Deliverables**
