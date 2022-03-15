@@ -1,5 +1,7 @@
 # cloudwalk
 
+Teste de processo seletivo para empresa CloudWalk
+
 ## **3.1 Understand the industry:**
 
 **1 – Explain the money flow and the information flow in the acquirer market and the role of the main players.**
@@ -36,3 +38,5 @@ Esse processo de estudo do cliente, é utilizado no mundo inteiro e em diversos 
 A query está no arquivo .sql do repositório. 
 
 Os clientes que apresentaram data negativa possuem 2 cadastros. Provavelmente o primeiro foi inativado e realizou um segundo cadastro, com isso ele calculará a data dp primeiro com o segundo. Dando a quantidade de horas negativa. 
+
+Qualquer dúvida entrar em contato em rpaschoal90@gmail.com
