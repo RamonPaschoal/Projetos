@@ -1,6 +1,4 @@
-# cloudwalk
-
-Teste de processo seletivo para empresa CloudWalk
+# Teste de processo seletivo para empresa CloudWalk
 
 ## **3.1 Understand the industry:**
 
