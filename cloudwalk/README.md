@@ -1,8 +1,8 @@
 # Teste de processo seletivo para empresa CloudWalk
 
-## **3.1 Understand the industry:**
+## **Entendendo a industria:**
 
-**1 – Explain the money flow and the information flow in the acquirer market and the role of the main players.**
+**1 – Explicar o fluxo de dinheiro e o fluxo de informações no mercado adquirente e o papel dos principais players.**
 
 Os principais playes dentro de um fluxo de pagamento são adquirente, a bandeira do cartão e o banco emissor. O fluxo das informações para uma compra online, por exemplo, desde a compra até o lojista receber o recurso é:
 
@@ -13,7 +13,7 @@ Os principais playes dentro de um fluxo de pagamento são adquirente, a bandeira
   5. Por fim a informação volta para o consumidor, e assim o lojista já pode preparar o pedido.
 
 
-**2 – Explain the difference between acquirer, sub-acquirer and payment gateway and how the flow explained in question 1 changes for these players.**
+**2 – Explique a diferença entre adquirente, subadquirente e gateway de pagamento e como o fluxo explicado na questão 1 muda para esses players.**
 
 A diferença entre adquirente, subadquirente, gateway pde pagamentos é:
 
@@ -25,14 +25,14 @@ O adquirente e subadquirente trabalham em conjunto na expansão de ofertas de me
   • Gateway de pagamento: Interface virtual que envia as informações para o adquirente. A diferença para o subadquirente é que funciona de forma integrada à página do e-commerce. Seu papel é processar os dados no momento em que a compra é finalizada.
 
 
-**3 – Explain what KYC (Know Your Customer) is and how it's important to the company and the entire payment industry.**
+**3 – Explique o que é KYC (Know Your Customer) e como ele é importante para a empresa e todo o setor de pagamentos.**
 
 A importância do KYC é para prevenção e segurança. É necessário entender a natureza das atividades e a legitimidade da renda do cliente para prevenir possíveis ilegalidades como lavagem de dinheiro, corrupção e etc. Isso protege tanto o negócio quanto o cliente.
 
 Esse processo de estudo do cliente, é utilizado no mundo inteiro e em diversos setores da economia, como no sistema de pagamentos e no mercado financeiro.
 
 
-## **3.2 Get your hands dirty:**
+## **Escrevendo código**
 A query está no arquivo .sql do repositório. 
 
 Os clientes que apresentaram data negativa possuem 2 cadastros. Provavelmente o primeiro foi inativado e realizou um segundo cadastro, com isso ele calculará a data dp primeiro com o segundo. Dando a quantidade de horas negativa. 
