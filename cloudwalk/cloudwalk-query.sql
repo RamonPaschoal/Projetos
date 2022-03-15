@@ -3,7 +3,7 @@ CREATE DATABASE cloudwalk;
 USE cloudwalk;
 
 CREATE TABLE `clientes` (
-	`user_id` INT(20) NOT NULL PRIMARY KEY, 
+    `user_id` INT(20) NOT NULL PRIMARY KEY, 
     `cnpj` VARCHAR(100) NOT NULL,
     `nome_do_cliente` VARCHAR(100)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -11,7 +11,7 @@ CREATE TABLE `clientes` (
 # Utilizado date import wizard para importar os dados da tabelas em csv para o MySQL
 
 CREATE TABLE `clientes` (
-	`user_id` INT(20) NOT NULL PRIMARY KEY, 
+    `user_id` INT(20) NOT NULL PRIMARY KEY, 
     `status` VARCHAR(100) NOT NULL,
     `data_horario_do_status` DATE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
