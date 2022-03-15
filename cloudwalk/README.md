@@ -33,6 +33,6 @@ Esse processo de estudo do cliente, é utilizado no mundo inteiro e em diversos 
 
 
 ## **3.2 Get your hands dirty:**
-Este estará no arquivo .sql do repositório
+A query está no arquivo .sql do repositório. 
 
-## **4 Deliverables**
+Os clientes que apresentaram data negativa possuem 2 cadastros. Provavelmente o primeiro foi inativado e realizou um segundo cadastro, com isso ele calculará a data dp primeiro com o segundo. Dando a quantidade de horas negativa. 
